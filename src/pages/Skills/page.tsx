@@ -37,7 +37,7 @@ import {
 } from "react-icons/si";
 import { BsFileEarmarkCode } from "react-icons/bs";
 import { TbBrandVscode } from "react-icons/tb";
-import { dir } from "console";
+
 
 interface Skill {
   name: string;

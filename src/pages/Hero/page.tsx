@@ -1,13 +1,13 @@
 import { useTheme } from "../../provider/page";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula,vs} from "react-syntax-highlighter/dist/esm/styles/prism";
-import { AnimatedShinyText } from "@/components/magicui/animated-shiny-text";
+
 import { SparklesText } from "@/components/magicui/sparkles-text";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import { Button } from "../../components/ui/moving-border";
 import { ShootingStars } from "../../components/ui/shooting-stars";
 import config from "@/config/config";
-import { ArrowRightIcon } from "lucide-react";
+
 
 
 export default function Hero() {

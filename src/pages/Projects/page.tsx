@@ -1,7 +1,5 @@
 import { Github, ExternalLink } from "lucide-react";
-import olova from "@/assets/projects/olova-B0FjVVEL.png";
-import portfolio from "@/assets/projects/Annotation 2025-03-20 155334.png";
-import codekori from "@/assets/projects/codekori.png";
+
 import Ahanpress from"@/assets/projects/Ahanpress.png"
 import Mentor from "@/assets/projects/Mentor.png"
 import vibank from "@/assets/projects/vibank.jpg"
