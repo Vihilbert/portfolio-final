@@ -98,7 +98,7 @@ export default function Hero() {
 
               <p className="mt-6 text-2xl">{config.information.title}</p>
 
-              <div className="mt-8 flex space-x-4 mr-16">
+              <div className="my-8 flex justify-around space-x-4 mx-auto">
                 <a
                   href="#"
                   className="bg-transparent text-blue-400  hover:bg-opacity-30 transition duration-300 cursor-pointer"
