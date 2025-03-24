@@ -62,7 +62,7 @@ export default function Header() {
           <nav
             className={`${
               theme === "dark" ? "md:bg-[#090F1C]/90" : "bg-white/90"
-            } backdrop-blur-md md:rounded-full px-1 md:px-6 py-2.5`}
+            } backdrop-blur-md rounded-full px-1 md:px-6 py-2.5`}
           >
             {/* Mobile Menu Button */}
             <div className="flex flex-col justify-between items-center md:hidden px-2">
