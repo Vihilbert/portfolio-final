@@ -53,16 +53,16 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed bg-transparent top-0  right-0 md:w-full w-1/4 rounded-full  z-50 ${
-        theme === "dark" ? "bg-[#090F1C]/95" : "bg-white/95"
+      className={`fixed bg-transparent top-0  right-0 md:w-full w-1/6 rounded-full  z-50 ${
+        theme === "dark" ? "md:bg-[#090F1C]/95" : "md:bg-white/95"
       } backdrop-blur-md md:bg-transparent md:backdrop-blur-none`}
     >
       <div className="md:fixed md:top-4 md:left-1/2 bg-transparent md:transform md:-translate-x-1/2 w-full md:w-auto rounded-full">
-        <div className="p-[2px] rounded-full bg-transparent md:bg-gradient-to-r from-emerald-400 via-cyan-500 to-indigo-500 animate-gradient-x">
+        <div className="p-[2px] rounded-full bg-transparent md:bg-gradient-to-r md:from-emerald-400 md:via-cyan-500 md:to-indigo-500 md:animate-gradient-x">
           <nav
             className={`${
-              theme === "dark" ? "md:bg-[#090F1C]/90" : "bg-white/90"
-            } backdrop-blur-md rounded-full px-1 md:px-6 py-2.5`}
+              theme === "dark" ? "md:bg-[#090F1C]/90" : "md:bg-white/90"
+            } md:backdrop-blur-md rounded-full px-1 md:px-6 py-2.5`}
           >
             {/* Mobile Menu Button */}
             <div className="flex flex-col justify-between items-center md:hidden px-2">
