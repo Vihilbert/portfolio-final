@@ -8,7 +8,7 @@ import { Button } from "../../components/ui/moving-border";
 import { ShootingStars } from "../../components/ui/shooting-stars";
 import config from "@/config/config";
 import { ArrowRightIcon } from "lucide-react";
-import Typewriter from 'typewriter-effect';
+
 
 export default function Hero() {
   const { theme } = useTheme();
@@ -90,13 +90,8 @@ export default function Hero() {
                   className={`py-3 px-6 `}
                 >
                   <span className="font-medium text-2xl " >
-                    <Typewriter
-                      options={{
-                       strings: ["توسعه‌دهنده فرانت‌اند ", "محقق هوش مصنوعی و نوروساینس ", "طراح رابط کاربری و محصول "],
-                       autoStart: true,
-                       loop: true,
-                     }}
-/>
+                  توسعه‌دهنده فرانت‌اند | محقق هوش مصنوعی و نوروساینس | طراح رابط کاربری و محصول "
+
                   </span>
                 </div>
               </div>
